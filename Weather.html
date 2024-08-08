@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <section id="container">
+      <section id="Country-City-W">
+        <div id="first">
+          <div id="WeatherInfo">
+            <div class="img">
+              <img id="img" alt="Weather Icon">
+            </div>
+            <div id="w-Info">
+              <div id="location">
+                <div id="country"></div>
+                <div id="region"></div><span></span>
+                <div id="name"></div><span></span>
+                <div id="localtime"></div><span></span>
+              </div>
+              <div id="locationCondition">
+                <div id="wind_kph"></div>
+                <div id="temp"></div>
+                <div id="cloud"></div>
+                <div id="condition"></div>
+                <div id="humidity"></div>
+              </div>
+            </div>
+            
+          </div>
+          <div id="City">
+            <p id="pTag-1">Write the any <span id="orange">COUNTRY</span>,<span id="white"> STATE</span> and <span id="green">CITY</span> weather info. <br>
+              If you want you take info here? write in search of box Ok!
+            </p>
+            <p id="warnTag"></p>
+            <input id="Name-Of-City-And-Country" type="text"  placeholder="Enter your City" >
+            <button id="searchBtn">Search</button>
+          </div>
+          
+        </div>
+        <div id="second">
+          <div id="time">
+            <div id="hr">00</div>
+            <div id="ratio">:</div>
+            <div id="min">00</div>
+            <div id="ratio">:</div>
+            <div id="sec">00</div>
+            <div id="ratio">:</div>
+            <div id="miliSecond">00</div>
+            <div id="AmPm">PM</div>
+          </div>
+          <div id="date">
+              <div id="day"></div>
+             
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="App.js"></script>
+    <script src="App-1.js"></script>
+  </body>
+</html>
